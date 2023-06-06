@@ -8,7 +8,9 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   try {
-    const productData = Product.findAll();
+    const productData = Product.findByPk(req.params.id, {
+      
+    });
     res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
