@@ -27,6 +27,8 @@ Then run the seed files by typing "npm run seed" in the command line, and start 
   ## Usage
   
   Once you've started the server, test out the GET, POST, PUT and DELETE endpoints via Insomnia to view, add to or update the database.
+ [Sample Video of Database Usage](https://github.com/julie-mac/SmartMarket/assets/123594716/8a34e486-134c-42be-8fd3-cddb2d30febb)
+
  
   ## License
     This project is licensed under the MIT License.
